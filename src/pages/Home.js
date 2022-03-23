@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home-container">
             <Navigation addedContent={
                 <div className="home">
-                    <p>A <span className="highlight-text">Computer Science Graduate</span> in Arellano University Pasig</p>
+                    <p>A <span className="highlight-text">Computer Science Student</span> in Arellano University Pasig</p>
                     <div className="icons">
                         <a href="https://web.facebook.com/kevinroi.castro/" target="_blank">
                             <img src={require("../images/ic_facebook.png")} />
