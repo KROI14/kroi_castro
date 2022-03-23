@@ -1,0 +1,24 @@
+*{
+    font-family: 'Overpass', sans-serif;
+    /* Fontweight 300, 500, 700 */
+    color: #A8A8A8;
+}
+
+body{
+    background: #242424 !important;
+}
+
+.highlight-text{
+    color: #00E0FF;
+}
+
+.container{
+    max-width: 1200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}

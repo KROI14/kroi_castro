@@ -1,0 +1,42 @@
+.nav-cont .name{
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-cont .link-nav{
+    text-decoration: none;
+    color: #A8A8A8;
+    margin: 0 10px;
+}
+
+.nav-cont .link-nav:hover{
+    color: #ffffff;
+}
+
+.nav-cont .link-nav.active{
+    color: #00E0FF;
+}
+
+@media (min-width: 576px) {
+    
+    .nav-cont .name{
+        font-size: 36px;
+    }
+    
+    .nav-cont .link-nav{
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    
+}

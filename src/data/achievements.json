@@ -1,0 +1,67 @@
+[
+    {
+        "date": "April 7, 2017",
+        "awards": [
+            {
+                "type": "Certificate of Recognition",
+                "title": "Academic Excellence as Rank 6 in Computer Programming 4 for the 3rd Quarter",
+                "location": "Arellano University Pasig"
+            },
+            {
+                "type": "Certificate of Recognition",
+                "title": "Academic Excellence as Rank 1 in Computer Programming 4 for the 4th Quarter",
+                "location": "Arellano University Pasig"
+            }
+        ]
+    },
+    {
+        "date": "February 20, 2019",
+        "awards": [
+            {
+                "type": "Certificate of Participation",
+                "title": "INTERBRANCH PROGRAMMING COMPETITION",
+                "location": "Arellano University Manila"
+            }
+        ]
+    },
+    {
+        "date": "March 16, 2019",
+        "awards": [
+            {
+                "type": "Certificate of Recognition",
+                "title": "COMPUTER SCIENCE PROGRAMMING COMPETITION INTERBRANCH",
+                "location": "Arellano University Pasig"
+            }
+        ]
+    },
+    {
+        "date": "August 30, 2019",
+        "awards": [
+            {
+                "type": "Certificate of Recognition",
+                "title": "2nd Year Representative of League of Information Education Student of Arellano University Pasig",
+                "location": "Arellano University Pasig"
+            }
+        ]
+    },
+    {
+        "date": "November 29, 2019",
+        "awards": [
+            {
+                "type": "Certificate of Recognition",
+                "title": "Presenting the group research entitled \"BOOKWAP: A PROPOSAL FOR A MOBILE OPEN ACCESS CATALOG\" in the 1st Campus Student Research Congress",
+                "location": "Arellano University Pasig"
+            }
+        ]
+    },
+    {
+        "date": "February 19, 2020",
+        "awards": [
+            {
+                "type": "Certificate of Attendance",
+                "title": "Active Participation in the Programming Competition",
+                "location": "Arellano University Manila"
+            }
+        ]
+    }
+]
