@@ -2,13 +2,13 @@
     {
         "title": "Bookwap",
         "image": "bookwap.png",
-        "description": "A proposal for a mobile Open Public Access Catalog Module",
+        "description": "A proposal for a mobile Open Public Access Catalog Module.",
         "links": ["https://github.com/KROI14/bookwap", "https://youtu.be/WxCiO2ocBRc"]
     },
     {
         "title": "Minniewiz",
         "image": "minniewiz.png",
-        "description": "A mobile quiz application with ranking system. WIth so much prettyful navigation bar",
+        "description": "A mobile quiz application with ranking system.",
         "links": ["https://github.com/KROI14/minniewiz", "https://youtu.be/WxCiO2ocBRc"]
     }
 ]
