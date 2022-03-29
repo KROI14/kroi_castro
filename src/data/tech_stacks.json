@@ -1,0 +1,41 @@
+[
+    {
+        "logo": "php.png",
+        "stack": "PHP"
+    },
+    
+    {
+        "logo": "mysql.png",
+        "stack": "MySql"
+    },
+    
+    {
+        "logo": "jquery.png",
+        "stack": "jQuery"
+    },
+    
+    {
+        "logo": "javascript.png",
+        "stack": "Javascript"
+    },
+    
+    {
+        "logo": "java.png",
+        "stack": "JAVA"
+    },
+    
+    {
+        "logo": "android_studio.png",
+        "stack": "Android Studio"
+    },
+    
+    {
+        "logo": "bootstrap.png",
+        "stack": "Bootstrap"
+    },
+    
+    {
+        "logo": "html_css.png",
+        "stack": "HTML/CSS"
+    }
+]

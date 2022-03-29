@@ -1,8 +1,9 @@
 import React from 'react';
 import './About.css';
-import me from '../images/img_me.webp';
+import me from '../images/img_me.png';
 import achievements from '../data/achievements.json';
 import seminars from '../data/seminars.json';
+import techStacks from '../data/tech_stacks.json';
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
             </div>
             
             <div className="about-card">
-                <h4 className="title">Career Objective</h4>
+                <h4 className="title">CAREER OBJECTIVE</h4>
                 <p>Seeking a position in the field of Computer Science where I can capitalize my
                     skills and improve my personal and professional growth while also contributing
                     to the orgainzation's success.</p>
@@ -26,7 +27,7 @@ const About = () => {
             
             <main>
                 <div className="about-card">
-                    <h4 className="title">Education</h4>
+                    <h4 className="title">EDUCATION</h4>
                     <div className="first-heading">
                         <div className="list-item">
                             <div className="circle"></div>
@@ -55,36 +56,10 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="first-heading">
-                        <div className="list-item">
-                            <div className="circle"></div>
-                            <span>Secondary Education (2012 - 2016)</span>
-                        </div>
-                        <div className="second-heading">
-                            <div className="vertical"></div>
-                            <ul>
-                                <li>Arellano University Pasig</li>
-                                <li>239 Pag asa st. Caniogan, Pasig City</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="first-heading">
-                        <div className="list-item">
-                            <div className="circle"></div>
-                            <span>Primary Education (2008 - 2012)</span>
-                        </div>
-                        <div className="second-heading">
-                            <div className="vertical"></div>
-                            <ul>
-                                <li>Pasig Community School</li>
-                                <li>1485-AM. Suarez Avenue, Pasig City</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
                 
                 <div className="about-card">
-                    <h4 className="title">Achievements</h4>
+                    <h4 className="title">ACHIEVEMENTS</h4>
                     {achievements.map((val, idx) => {
                         return (
                             <div key={idx} className="first-heading">
@@ -111,7 +86,7 @@ const About = () => {
                 </div>
                 
                 <div className="about-card">
-                    <h4 className="title">Seminars Attended</h4>
+                    <h4 className="title">SEMINARS</h4>
                     {seminars.map((val, idx) => {
                         return (
                             <div key={idx} className="first-heading">
@@ -140,30 +115,12 @@ const About = () => {
                     <h4 className="title">Tech Stacks</h4>
                     
                     <div className="tech-stacks-con">
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/php.png')} width="45px"/>
-                            <h2>PHP</h2>
-                        </div>
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/mysql.png')} width="45px"/>
-                            <h2>MySql</h2>
-                        </div>
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/jquery.png')} width="45px"/>
-                            <h2>jQuery</h2>
-                        </div>
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/javascript.png')} width="45px"/>
-                            <h2>Javascript</h2>
-                        </div>
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/java.png')} width="45px"/>
-                            <h2>JAVA</h2>
-                        </div>
-                        <div className="tech-con">
-                            <img src={require('../images/img_tech_stacks/android_studio.png')} width="45px"/>
-                            <h2>Android Studio</h2>
-                        </div>
+                        {techStacks.map((val, idx) => 
+                            <div key={ idx } className="tech-con">
+                                <img src={ require(`../images/img_tech_stacks/${val.logo}`) } width="45px"/>
+                                <h2>{ val.stack }</h2>
+                            </div>
+                        )}
                     </div>
                 </div>
             </main>
