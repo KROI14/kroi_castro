@@ -10,5 +10,11 @@
         "image": "minniewiz.png",
         "description": "A mobile quiz application with ranking system.",
         "links": ["https://github.com/KROI14/minniewiz", "https://youtu.be/ixn_4dNYcsE"]
+    },
+    {
+        "title": "Lan Based Kiosk Ordering System",
+        "image": "kiosk_ordering.png",
+        "description": "An ordering system for full service restaurants",
+        "links": ["https://github.com/KROI14/lan_based_kiosk_ordering_system", "https://youtu.be/4tGE3h-rlDE"]
     }
 ]
