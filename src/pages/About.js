@@ -31,7 +31,7 @@ const About = () => {
                     <div className="first-heading">
                         <div className="list-item">
                             <div className="circle"></div>
-                            <span>Tertiary (2018 - Present)</span>
+                            <span>Tertiary (2018 - Waiting for graduation)</span>
                         </div>
                         <div className="second-heading">
                             <div className="vertical"></div>
